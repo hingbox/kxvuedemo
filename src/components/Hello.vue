@@ -1,9 +1,11 @@
+<!-- 模板 -->
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
   </div>
 </template>
 
+<!-- 脚本-->
 <script>
 export default {
   name: 'hello',
@@ -16,6 +18,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- 样式-->
 <style scoped>
 h1, h2 {
   font-weight: normal;
